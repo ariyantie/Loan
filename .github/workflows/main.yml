@@ -1,0 +1,8 @@
+            - name: "Setup Aliyun CLI" Action for GitHub Actions
+  # You may pin to the exact commit or the version.
+  # uses: aliyun/setup-aliyun-cli-action@3ddbef8bb5e0904d0fb3b8f1e92a2b0fe61f0c6a
+  uses: aliyun/setup-aliyun-cli-action@v1-beta
+  with:
+    # The version of Aliyun CLI
+    version: # optional, default is latest
+          
